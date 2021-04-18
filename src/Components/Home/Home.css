@@ -1,0 +1,28 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+.FacultyInfo {
+  border-radius: 37px !important;
+  padding: 15px 35px !important;
+}
+.FacultyInfo:hover {
+  background: none !important;
+}
+.FacultyText {
+  color: crimson !important;
+  animation: pulse 0.8s infinite;
+}
+@keyframes pulse {
+  0% {
+    transform: scale(0.55);
+  }
+
+  70% {
+    transform: scale(1);
+  }
+
+  100% {
+    transform: scale(0.55);
+  }
+}
