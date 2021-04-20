@@ -29,6 +29,14 @@ const FacultyInformation = () => {
             required
           />
         </Form.Group>
+        <Form.Group>
+          <Form.Label>Faculty Email</Form.Label>
+          <Form.Control type="email" placeholder="Enter Faculty Mail" />
+        </Form.Group>
+        <Form.Group>
+          <Form.Label>Faculty Phone No.</Form.Label>
+          <Form.Control type="tel" placeholder="01700-000000" pattern="[0-9]{5}-[0-9]{6}" />
+        </Form.Group>
         <Button type="submit">Submit</Button>
         <Button className="mx-2">
           <Link to="/" className="text-light text-decoration-none">
