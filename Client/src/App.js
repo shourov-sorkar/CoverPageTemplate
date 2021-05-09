@@ -3,8 +3,11 @@ import { BrowserRouter as Router, Switch, Route,Redirect } from "react-router-do
 import Home from "./Components/Home/Home"
 import FacultyInformation from "./Components/FacultyInformation/FacultyInformation"
 import CourseInformation from "./Components/CourseInformation/CourseInformation"
+<<<<<<< HEAD:Client/src/App.js
 import ShowCourses from "./Components/ShowCourse/ShowCourses";
 import ShowFacultyInfo from "./Components/ShowFacultyInfo/ShowFacultyInfo";
+=======
+>>>>>>> 15c51512edff456bba743b08390f08c372bd2f5b:src/App.js
 const App = () => {
   return (
     <Router>
