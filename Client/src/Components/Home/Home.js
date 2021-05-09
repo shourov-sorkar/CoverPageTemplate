@@ -11,6 +11,10 @@ const Home = () => {
         <Button variant="outlined" color="secondary" className="my-5 FacultyInfo">
           <Link to="/FacultyInformation" className="text-decoration-none FacultyText"> Added Faculty Information</Link>
         </Button>
+        <br></br>
+        <Button variant="outlined" color="secondary" className="my-5 FacultyInfo ml-1">
+          <Link to="/CourseInformation" className="text-decoration-none FacultyText"> Added Course Information</Link>
+        </Button>
       </Container>
     </div>
   );

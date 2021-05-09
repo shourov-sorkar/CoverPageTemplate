@@ -1,0 +1,22 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.title {
+    color: rebeccapurple;
+    animation: pulse 0.8s infinite;
+    cursor: wait;
+}
+@keyframes pulse {
+  0% {
+    transform: scale(1.1);
+  }
+
+  70% {
+    transform: scale(1);
+  }
+
+  100% {
+    transform: scale(1.1);
+  }
+}
